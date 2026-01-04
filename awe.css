@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif ;
+}
+body{
+    background: #040404;
+    color: white;
+}
+header{
+    width: 100%;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #f9d342;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    
+}
+nav a{
+    margin: 0 18px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+nav a:hover{
+    color: #fff;
+
+}
+.cart i{
+    font-size: 26px;
+    color:#fff;
+}
+.hero{
+    display: flex;
+    padding: 60px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-box{
+    margin: 50px;
+}
+.text-box h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.yellow {
+    color: #f9d342;
+}
+.text-box p{
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 18px;
+}
+.btn-primary{
+    background: #f9d342;
+    padding: 12px 26px;
+    color: #000;
+    font-weight: 600;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.btn-primary:hover{
+    background: #ffe25e;
+}
+.btn-secondary{
+    border: 2px solid #fff;
+    padding: 12px 26px;
+    color:  #fff;
+    font-weight: 600;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.btn-secondary:hover{
+background: #fff;
+color: #000;
+}
+.image-box img{
+width: 430px;
+}
